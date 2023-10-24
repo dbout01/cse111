@@ -1,0 +1,62 @@
+DICTIONARIES
+A Python program can store many items in a dictionary.
+    Each item in a dictionary is a key value pair.
+        Each key within a dictionary must be unique.
+
+MEANING...
+No key can appear more than once in a dictionary.
+    Values within a dictionary do not have to be unique.
+        Dictionaries are mutable, meaning they can be changed after they are created.
+
+CREATING A DICTIONARY:
+variable_dict = {....}
+
+ADDING ITEM TO EXISTING DICTIONARY:
+    dictionary_name[key] = value
+
+TO CHECK IF A KEY IS STORED IN A DICTIONARY:
+    if key in dictionary_name:
+    
+FIND A KEY AND ITS CORRESPONDING VALUE:
+    value = dictionary_name[key]
+
+---------------------------------------------------------------------------------------
+
+COMPOUND VALUES
+- A value that has parts
+- Each key is a single string, and each value is a single string.
+- It is possible to store compound values in a dictionary.
+- Because each list contains multiple parts, we say that the dictionary stores compound values.
+
+FINDING ONE ITEM
+    value = dictionary_name[key]
+
+PROCESSING ALL ITEMS
+- Processing all the items in a dictionary is different than finding one item in a dictionary.
+- Processing all the items is done using a for loop and the dict.items().
+How to do it: for key, value in students_dict.items():
+
+---------------------------------------------------------------------------------------
+
+CONVERTING BETWEEN LISTS & DICTIONARIES
+- It is possible to convert two lists into a dictionary by using the built-in zip and dict functions.
+- The contents of the first list will become the keys in the dictionary, and the contents of the
+  second list will become the values.
+    - This implies that the two lists must have the same length, and the elements in the first list must
+      be unique because keys in a dictionary must be unique.
+
+It is also possible to convert a dictionary into two lists by using the keys and values methods and the built-in list function.
+
+---------------------------------------------------------------------------------------
+
+SUMMARY
+- A dictionary in a Python program can store many pieces of data called items.
+- An item is a key value pair.
+    Each key that is stored in a dictionary must be unique.
+- Values do not have to be unique.
+- To create a dictionary, we use curly braces ({ and }).
+    - To add an item and find an item in a dictionary, we use the square brackets ([ and ]) and a key.
+    - To process all items in a dictionary, we write a for each loop.
+    - Dictionaries were invented to enable a computer to find items very quickly.
+    - Do not write a for each loop to find an item in a dictionary.
+        - To find an item in a dictionary, use square brackets ([ and ]) and a key.

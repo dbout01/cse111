@@ -1,0 +1,48 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    "UniData"
+
+2. What real-world problem will your program address or help to solve?
+    The program will address the real-world problem of efficiently managing and retrieving information
+    from a university database. It will help automate tasks related to accessing and manipulating data stored
+    in the university's database system, making it easier for administrators, faculty, and students to retrieve
+    relevant information. This program will be a complement to my CIT111 Course, in which I am creating a University
+    database for my final project.
+
+3. What will you learn from developing this program?
+    By developing this program, I will gain a deeper understanding of working with databases,
+    handling data retrieval and manipulation using Python, and implementing efficient data processing techniques.
+    Additionally, I will learn about integrating Python with database systems and developing modular code
+    for better code organization.
+
+4. What Python modules will your program use?
+          - mysql-connector-python: for connecting to and interacting with MySQL database.
+          - datetime: for working with dates and times.
+          - random: for generating random data or selecting random elements.
+          - pytest: for writing and executing unit tests.
+          - any other relevant modules depending on any incoming needs in the program.
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+    Yes, I will separate my Python program into functions that each perform a single task.
+    This approach will promote code readability, making it easier to maintain and test the program.
+    By breaking down the program into functions, I can focus on specific tasks such as database
+    connection, data retrieval, data manipulation, and data presentation.
+
+6. Will you write test functions to test at least two of your program
+functions?
+    Yes, I will write test functions to test at least two of the program functions.
+    Testing the functions will help ensure their correctness and identify any potential issues or bugs.
+    The tests can include verifying the expected output of a function given specific input,
+    checking for boundary cases, and handling potential errors or exceptions.
+    Writing tests will prevent me from causing major errors in my program.

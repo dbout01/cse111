@@ -1,0 +1,27 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+    This semester, the experience I had was when working on the "chemistry" assingment from weeks 7 and 8. I feel like the chemistry assingment
+    was the hardest assignment for me to complete, but looking back at it, I see the power of functions and how they allow (sometimes complex) operations 
+    to be performed, even with data that needs to be displayed (through a dictionary/composite dictionary).
+
+
+2. In your judgment, what is the value of test functions?
+    Test functions hold significant value in the software development process.
+    They allow developers to verify that their codes runs as expected.
+    By systematically testing different scenarios, including both valid and invalid inputs,
+    test functions can help catch bugs. Test functions provide reassurance that the program functions
+    as intended, improve code quality, and aid in maintaining the stability and reliability of a program.
+
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+    When troubleshooting and fixing a program, my process usually is:
+        1. Identifying the problem by reproducing the issue and understanding what caused them
+        2. Analyzing the  code to identify potential causes
+        3. Isolating the broken section of the code and debugging it
+        4. Using any necessary fixes or modifications
+        5. Testing the modified code to ensure the issue has been resolved
